@@ -1,0 +1,85 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+@font-face {
+    font-family: 'FitForMurder-OVAV6';
+    src: url('fonts/FitForMurder-OVAV6.tff');
+    src: local('Fit for Murder'), local('FitForMurder'), url('fonts/FitForMurder-OVAV6.tff')                       format('truetype');
+}
+
+body {
+    background-color: #0e1111;
+    color: azure;
+    font-family: "FitForMurder-OVAV6";
+    font-size: 250px;
+    margin: auto;
+}
+
+.title-container{ 
+    text-align: center;
+    margin-top: 100px;
+    mix-blend-mode: difference;
+    -webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+transition: 4s ease;
+
+}
+
+.title-container:hover{
+    color: red;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.body-container{
+    text-align: center;
+    padding: 50px;
+    opacity: 50%;
+
+}
+
+.iconify{
+    margin-bottom: -30px;
+}
+
+.iconify:hover{
+    color: red;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 2.5s ease;
+}
+
+a {
+    color: azure;
+}
+
+a:focus, a:active {
+    text-decoration: none;
+    color: azure;
+    text-decoration: solid;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 2.5s ease;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+
